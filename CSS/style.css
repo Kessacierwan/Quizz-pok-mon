@@ -1,0 +1,64 @@
+#namepoke {
+    visibility: hidden;
+}
+
+.titre{
+    text-align: center;
+background: linear-gradient(90deg,red,blue);
+color: linear-gradient(red,blue);
+margin-left: 20%;
+margin-right: 20%;
+
+}
+
+ 
+
+#imgpoke{
+    margin-bottom: 20px;
+}
+
+
+.gamecontainer{
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+margin-bottom: 20px;
+}
+
+#label {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:red;
+    font-size: 25px;
+}
+
+#scorediv {
+    margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+
+    color:red
+}
+
+body{
+    background-image: url(../img/R.jpg);
+    background-size: cover;
+    margin : 0px;
+}
+
+#casereponse{
+    border: 5px solid darkmagenta;
+}
+
+.classbutton {
+    border: 2Px solid darkmagenta;
+    border-radius: 20px;
+    padding: 5px;
+    color: white;
+    background-color: black;
+}
+
+.buttondiv{
+    display: flex;
+    justify-content: space-evenly;
+}
